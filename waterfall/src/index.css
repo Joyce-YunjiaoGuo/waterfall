@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 0;
+}
+.wrapper {
+    width: 80%;
+    min-width: 1300px;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+}
+.wrapper ul {
+    width: 100%;
+    display: inline-block;
+}
+.wrapper ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+
+}
+.wrapper ul li .item {
+    display: inline-block;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 5px 10px;
+    
+}
+.wrapper ul li .item .box {
+    width: 100%;
+    overflow: hidden;
+}
+.wrapper ul li .item .box img {
+    width: 100%;
+
+} 
+.wrapper ul li .item p {
+    width: 100%;
+    font-size: 20px;
+    word-wrap: break-word;
+}
